@@ -30,26 +30,12 @@ The dataset contains 5,000 customer reviews from ecommerce platforms like Zepto 
 
 ---
 
-## 📌 Table Schema
-
-```sql
-CREATE TABLE ecommerce_reviews (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    `Agent Name` VARCHAR(100),
-    Rating FLOAT,
-    `Review Text` TEXT,
-    `Delivery Time (min)` INT,
-    Location VARCHAR(100),
-    `Order Type` VARCHAR(100),
-    `Customer Feedback` VARCHAR(50),
-    `Price Range` VARCHAR(20),
-    `Discount Applied` VARCHAR(10),
-    ProductAvailability VARCHAR(50),
-    `Customer Service Rating` INT,
-    `Order Accuracy` VARCHAR(50)
-);
-
-✅ Output
+## ✅ Output
 SQL file with queries
 
 Screenshots of output (to be added after running queries)
+
+## Copyright
+© 2025 Ecommerce Reviews SQL Analysis. All rights reserved.
+
+This project and its contents are the intellectual property of the creators. Unauthorized reproduction, distribution, or use of any part of this project without explicit permission is prohibited.
